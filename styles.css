@@ -1,0 +1,130 @@
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.main-wrapper {
+  display: flex;
+}
+
+.col-left {
+  flex: 60%;
+}
+
+.col-right {
+  flex: 40%;
+  background-color: #fff;
+  padding: 50px 100px;
+}
+
+.col-left {
+  background-color: #ffe6c9;
+  padding-top: 40px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.img img {
+  width: 50%;
+  height: auto;
+}
+
+.description {
+  text-align: center;
+  padding-top: 20px;
+  color: #7f265b;
+  font-weight: 400;
+}
+
+button {
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+
+.m36 {
+  margin: 36px 0;
+}
+
+.mt24 {
+  margin-top: 24px;
+}
+
+.base-color {
+  color: #525252;
+}
+
+.base-color2 {
+  color: #828282;
+}
+
+.base-color3 {
+  color: #7f265b;
+}
+
+.center {
+  text-align: center;
+}
+
+.with-email-txt {
+  color: #a1a1a1;
+}
+
+label {
+  display: block;
+  color: #828282;
+}
+.input-txt {
+  margin-top: 24px;
+}
+.input-txt input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ded2d9;
+  margin-top: 5px;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding: 5px;
+}
+.submit {
+  margin-bottom: 50px;
+}
+.submit input {
+  width: 100%;
+  padding: 13px 10px 12px 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 24px;
+  font-weight: bold;
+  color: white;
+  background-color: #7f265b;
+}
+
+.checkbox {
+  color: #a1a1a1;
+}
+
+.remember a {
+  text-decoration: none;
+  color: #7f265b;
+}
