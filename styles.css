@@ -27,6 +27,13 @@ body {
   padding: 50px 100px;
 }
 
+.google:hover {
+  background-color: #7f265b;
+  color: white;
+  transition: ease-in-out 0.5s all;
+  font-weight: bold;
+}
+
 .col-left {
   background-color: #ffe6c9;
   padding-top: 40px;
@@ -127,4 +134,57 @@ label {
 .remember a {
   text-decoration: none;
   color: #7f265b;
+}
+
+@media (max-width: 481px) {
+  .col-left {
+    display: none;
+  }
+
+  .col-right {
+    padding: 20px;
+  }
+
+  .with-email-txt {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 482px) and (max-width: 963px) {
+  .col-left {
+    display: none;
+  }
+
+  .main-wrapper {
+    display: block;
+  }
+
+  .col-right {
+    min-width: 60%;
+    max-width: 70%;
+
+    padding: 0 40px;
+    margin: 15% auto;
+  }
+
+  .with-email-txt {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 964px) and (max-width: 1280px) {
+  .col-left {
+    flex: 50%;
+  }
+  .col-right {
+    flex: 50%;
+
+    margin: 0;
+  }
+
+  .with-email-txt {
+    white-space: nowrap;
+    overflow: hidden;
+  }
 }
